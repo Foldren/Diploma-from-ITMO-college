@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Exo+2|PT+Sans+Narrow|Anton');
+*{position: absolute; font-family: 'Exo 2';}
+
+::-webkit-scrollbar{height: 6px;}
+::-webkit-scrollbar-track{background-color: #E4E4E6;}
+::-webkit-scrollbar-thumb{background-color: #EE0D61;}
+
+.scrollPrS::-webkit-scrollbar{width: 4px;}
+.scrollPrS::-webkit-scrollbar-track{background-color: #E4E4E6;}
+.scrollPrS::-webkit-scrollbar-thumb{background-color: #26A96C;}
+
+.scrollSmall::-webkit-scrollbar{width: 4px;}
+.scrollSmall::-webkit-scrollbar-track{background-color: white;}
+.scrollSmall::-webkit-scrollbar-thumb{background-color: #EE0D61;}
+.opacity:hover{opacity: 1;}
+.buttons:hover{opacity: 1;}
+.opacityX2:hover{opacity: 1;}
+.skritBackGren:hover{
+	background-color: #14453D; 
+	color: white;
+}
+.blockTA{
+	border: 0px solid #979DA5; 
+	border-radius: 10px; 
+	padding-left: 5px; 
+	line-height: 1.2;
+}
+.skritBackRose:hover{
+	background-color: #EE0D61; 
+	color: white;
+}
+.skritBackGray:hover{
+	background-color: #F5F6F5; 
+}
+.skritBackOrng:hover{
+	background-color: #FF7700; 
+}
+.opacity{
+	opacity: 0.8;
+}
+.opacityX2{
+	opacity: 0.3;
+}
+.inputTag{
+	padding-left: 5px; 
+	border-radius: 10px; 
+	border: 1px solid #979DA5;
+	font-size: 13pt;
+}
+.buttons{
+	opacity: 0.8;
+	background-color: #EE0D61; 
+	border-radius: 15px; 
+	color: white; 
+	white-space: nowrap;
+	font-size: 12pt; 
+	height: 25px; 
+	padding: 3px 7px 1px 7px;
+}
+.backForms{
+	background-color: #EE0D61; 
+	border-radius: 15px; 
+	display: inline-block; 
+	color: white; 
+	white-space: nowrap;
+	font-size: 12pt; 
+	height: 25px; 
+	padding: 3px 7px 1px 7px;
+}
+.textSm{
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	font-size: 11pt;
+}
+.text{
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	overflow: hidden; 
+	font-size: 13pt;
+}
+.areatext{
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	font-size: 13pt;
+	line-height: 1.5;
+}
+.largeBlocks{
+	min-width: 800px;
+	min-height: 400px;
+	overflow: auto; 
+	border-radius: 35px; 
+	overflow-x: hidden; 
+	background-color: white;
+}
+.mediumBlocks{
+	width: 500px;
+	height: 300px;
+	overflow: auto; 
+	border-radius: 35px; 
+	padding: 50px; 
+	overflow-x: hidden; 
+	background-color: white;
+}
+.smallBlocks{
+	width: 150px;
+	height: 250px;
+	overflow: auto; 
+	border-radius: 15px; 
+	overflow-x: hidden; 
+	background-color: white;
+}
+.userPhoto{
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	overflow: none;
+}
+.usrSt{
+	width: 15px;
+	height: 15px;
+	border-radius: 30px;
+	border: 2px solid white;
+	background-color: white;
+	overflow: none;
+}
+.usrName{
+	width: inherit; 
+	font-family: 'Exo 2';
+	text-align: center; 
+	font-size: 11pt;
+}
+.progressBar{
+	border: 1px solid #F3F4F3; 
+	width: 100px;
+	height: 20px;
+}
+.progressStep{
+	border: 1px solid #26A96C; 
+	width: 200px;
+	height: 40px;
+}
+.mainText{
+	font-size: 22pt;
+	color: #EE0D61;
+	font-family: 'PT Sans Narrow';
+}
+.mediumText{
+	font-size: 17pt;
+	color: #EE0D61;
+	font-family: 'PT Sans Narrow';
+}
+.redTextSm{
+	font-size: 11pt;
+	white-space: nowrap; 
+	color: #EE0D61;
+}
+.redTextNorm{
+	font-size: 13pt;
+	white-space: nowrap; 
+	color: #EE0D61;
+}
+.userIconT{
+	background-color: #3A86FF; 
+	border-radius: 50px; 
+	width: 23px; 
+	height: 23px;
+	padding: 2px;
+}
+.priloshIconT{
+	width: 30px; 
+	height: 30px; 
+	border-radius: 30px;
+	padding: 5px;
+}
+.prilosh{
+	border-radius: 15px;
+	width: 200px;
+	height: 200px;
+}
